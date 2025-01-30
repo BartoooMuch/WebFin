@@ -1,0 +1,10 @@
+﻿@model WebFin.ViewModels.JobPostViewModel
+
+<div class="container">
+    <h1>@Model.Title</h1>
+    <p>@Model.Description</p>
+    <p>Şehir: @Model.City</p>
+    <p>Son Güncelleme: @Model.LastUpdated.ToString("dd/MM/yyyy")</p>
+    <p>Şirket: @Model.CompanyName</p>
+    <a href="/Login" class="btn btn-success">Başvur</a>
+</div>

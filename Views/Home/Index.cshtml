@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+<div class="container">
+    <h1>İş İlanları</h1>
+    <input type="text" id="cityInput" class="form-control" placeholder="Şehir ara...">
+
+    <div id="jobResults">
+        @foreach (var job in Model)
+        {
+            <div class="card">
+                <h3>@job.Title</h3>
+                <p>@job.Description</p>
+                <a href="/Jobpost/Details/@job.Id" class="btn btn-primary">Detaylar</a>
+            </div>
+        }
+    </div>
+</div>

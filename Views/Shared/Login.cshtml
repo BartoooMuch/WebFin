@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Giriş Yap";
+}
+<div class="container">
+    <h2>Giriş Yap</h2>
+    <form method="post" action="/Account/Login">
+        <input type="email" name="email" class="form-control" placeholder="E-posta" required>
+        <input type="password" name="password" class="form-control" placeholder="Şifre" required>
+        <button type="submit" class="btn btn-primary">Giriş Yap</button>
+        <a href="/Account/GoogleLogin" class="btn btn-danger">Google ile Giriş Yap</a>
+    </form>
+</div>

@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+<div class="container">
+    <h2>Kayıt Ol</h2>
+    <form method="post" action="/Account/Register">
+        <input type="email" name="email" class="form-control" placeholder="E-posta" required>
+        <input type="password" name="password" class="form-control" placeholder="Şifre" required>
+        <input type="text" name="city" class="form-control" placeholder="Şehir" required>
+        <button type="submit" class="btn btn-success">Kayıt Ol</button>
+    </form>
+</div>
