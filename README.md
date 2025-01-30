@@ -1,4 +1,7 @@
 # WebFin - Job Search Web Application  
+## 🌐 Canlı Yayınlanan Proje
+📌 **Canlı Proje Linki:** [Proje Çalışan Versiyon](https://PROJE-LİNKİNİ-BURAYA-YAPIŞTIR)
+
 
 ## 📌 Proje Açıklaması  
 Bu proje, **kariyer.net** benzeri bir iş arama web uygulamasıdır. Kullanıcılar iş ilanlarını arayabilir, detaylarını inceleyebilir ve başvuru yapabilir.  
